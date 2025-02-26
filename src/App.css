@@ -1,0 +1,18 @@
+/* src/App.css */
+.app-layout {
+  display: flex; /* Usando flexbox para organizar os itens */
+}
+
+.sidebar {
+  width: 250px; /* Largura do Sidebar */
+  background-color: #2c3e50; /* Cor de fundo do Sidebar */
+  color: white; /* Cor do texto no Sidebar */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.content {
+  margin-left: 270px; /* Espaço à esquerda para o Sidebar */
+  padding: 20px; /* Espaçamento interno */
+  width: calc(100% - 270px); /* Ajuste para o conteúdo ocupar o restante da largura */
+}
+
